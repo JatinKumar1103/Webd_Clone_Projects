@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(197, 36, 18); */
+}
+.nav{
+    height: 6vw;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    height: 4vw;
+    width: 4vw;
+    background-image: url("https://assets.website-files.com/60586ee6b54d92a3bcaebe89/605c9b057836d1326e554cbb_Me-Pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    
+  }
+.nav-con{
+    display: flex;
+  height: 7vw;
+  /* background-color: blue; */
+  justify-content: space-around;
+  width: 45%;
+  align-items: center; 
+  margin-right: 5%;
+}
+.nav-con h5 {
+    font-size: 1.5vw;
+    font-weight: 400;
+  }
+
+.hero-txt{
+    height: calc(100vh - 6vw);
+    /* background-color: blue; */
+    display: flex;
+}
+.left{
+    
+    background-color: white;
+    width: 33%;
+    position: relative;
+    height: 100%;
+ 
+}
+
+.l-text{
+    padding-bottom: 36%;
+    padding-right: 34%;
+    width: 68%;
+    margin-left: 15%;
+    height: 34%;
+    position: absolute;
+    bottom: 3%;
+    /* background-color: blue; */ 
+    /* margin-bottom: 2%; */   
+}
+.l-text h4{
+    font-size: 3.9vw;
+    font-weight: 600;
+    line-height:109%;
+   
+}
+.l-text h3{
+    font-size: 3.8vw;
+    font-weight: 600;
+    line-height: 67%;
+    /* padding-bottom: 0%;
+    margin-bottom: 0%; */
+    
+}
+.l-text sup{
+    font-size: 2.1vw;
+    font-weight: 800;
+}
+
+.right{
+    
+    background-color: red;
+    /* background-color: white; */
+    width: 67%;
+    height: 100%;
+    
+    
+}
+
+
+.r-text{
+   width: 100%;
+   height: 85%;
+   
+   
+ 
+}
+.right h3{
+    margin-right: 11%;
+    text-align: end;
+    font-size: 27svh;
+    
+
+
+   
+
+   
+}
+.right h2{
+   
+    
+}
+.r-s-text{
+    
+    background-color: blue;
+    width: 100%;
+    height: 15%;  
+}
+.r-s-text h5{
+    
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(27, 197, 18);
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(18, 33, 197);
+}
